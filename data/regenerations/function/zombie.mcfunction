@@ -1,0 +1,1 @@
+execute if score zero.tick server matches 0 if predicate regenerations:daylight run damage @s 1 in_fire

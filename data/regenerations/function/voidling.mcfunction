@@ -1,0 +1,1 @@
+execute if score zero.tick server matches 0 at @e[type=!item,distance=1..16] run damage @n 1 magic by @s
