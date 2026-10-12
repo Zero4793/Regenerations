@@ -13,7 +13,7 @@ execute as @a[scores={deaths=2}] at @s run function regenerations:goblin
 execute as @a[scores={deaths=3}] at @s run function regenerations:avian
 execute as @a[scores={deaths=4}] at @s run function regenerations:dryad
 execute as @a[scores={deaths=5}] at @s run function regenerations:mermaid
-execute as @a[scores={deaths=6}] at @s run function regenerations:voidling
+execute as @a[scores={deaths=6}] at @s run function regenerations:slime
 execute as @a[scores={deaths=7}] at @s run function regenerations:ghost
 execute as @a[scores={deaths=8}] at @s run function regenerations:zombie
 execute as @a[scores={deaths=9}] at @s run function regenerations:skulker

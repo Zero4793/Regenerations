@@ -1,4 +1,5 @@
 # reset
+gamemode survival
 execute in minecraft:overworld run tp @s ~ ~ ~
 effect give @s regeneration 60 1 false
 scoreboard players set @s drankMilk 0
@@ -16,6 +17,7 @@ attribute @s max_health base set 20
 attribute @s movement_speed base set 0.1
 attribute @s scale base set 1
 attribute @s step_height base set 0.6
+
 #vamp
 execute as @s[scores={deaths=13}] run scoreboard players operation @s deaths -= @s playerKills
 scoreboard players set @s playerKills 0
@@ -26,7 +28,7 @@ execute as @s[scores={deaths=2}] run function regenerations:goblin_set
 execute as @s[scores={deaths=3}] run function regenerations:avian_set
 execute as @s[scores={deaths=4}] run function regenerations:dryad_set
 execute as @s[scores={deaths=5}] run function regenerations:mermaid_set
-execute as @s[scores={deaths=6}] run function regenerations:voidling_set
+execute as @s[scores={deaths=6}] run function regenerations:slime_set
 execute as @s[scores={deaths=7}] run function regenerations:ghost_set
 execute as @s[scores={deaths=8}] run function regenerations:zombie_set
 execute as @s[scores={deaths=9}] run function regenerations:skulker_set
@@ -36,6 +38,3 @@ execute as @s[scores={deaths=12}] run function regenerations:vampire_set
 execute as @s[scores={deaths=13}] run function regenerations:spectator_set
 execute as @s[scores={deaths=14}] run function regenerations:angel_set
 execute as @s[scores={deaths=15}] run function regenerations:spectator_set
-
-# respawn
-execute as @s[scores={respawned=1}] at @s run spreadplayers 0 0 0 2048 false @s

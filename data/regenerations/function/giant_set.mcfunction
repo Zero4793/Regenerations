@@ -9,3 +9,4 @@ attribute @s max_health base set 40
 attribute @s movement_speed base set 0.1
 attribute @s scale base set 2
 attribute @s step_height base set 1.2
+effect give @s instant_health 100 1 true

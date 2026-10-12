@@ -24,3 +24,4 @@ Undead: friendly undead, burn in daylight
 text/title
 particles
 polish
+hardcode spawns
