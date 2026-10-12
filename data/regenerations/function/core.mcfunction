@@ -10,7 +10,7 @@ execute as @a[scores={drankMilk=1}] at @s run function regenerations:reset
 # Lives
 execute as @a[scores={deaths=1}] at @s run function regenerations:giant
 execute as @a[scores={deaths=2}] at @s run function regenerations:goblin
-execute as @a[scores={deaths=3}] at @s run function regenerations:mayfly
+execute as @a[scores={deaths=3}] at @s run function regenerations:avian
 execute as @a[scores={deaths=4}] at @s run function regenerations:dryad
 execute as @a[scores={deaths=5}] at @s run function regenerations:mermaid
 execute as @a[scores={deaths=6}] at @s run function regenerations:voidling
