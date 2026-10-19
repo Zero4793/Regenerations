@@ -1,5 +1,5 @@
 # Zero_4793
-say Regenerations Loaded!
+say Regenerations Loaded! 
 
 forceload add 0 0 1 1
 
@@ -13,5 +13,7 @@ scoreboard objectives add damageDealt minecraft.custom:minecraft.damage_dealt
 scoreboard objectives add damageTaken minecraft.custom:minecraft.damage_taken
 scoreboard objectives add playerKills minecraft.custom:minecraft.player_kills
 scoreboard objectives add mobKills minecraft.custom:minecraft.mob_kills
+scoreboard objectives add playerHealth health
+scoreboard objectives add maxHealth dummy
 
 team add undead

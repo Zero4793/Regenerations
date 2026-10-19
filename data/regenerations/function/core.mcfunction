@@ -22,4 +22,4 @@ execute as @a[scores={deaths=11}] at @s run function regenerations:ender
 execute as @a[scores={deaths=12}] at @s run function regenerations:vampire
 execute as @a[scores={deaths=13}] at @s run function regenerations:spectator
 execute as @a[scores={deaths=14}] at @s run function regenerations:angel
-execute as @a[scores={deaths=15}] at @s run function regenerations:spectator
+execute as @a[scores={deaths=15..}] at @s run function regenerations:spectator
