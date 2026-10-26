@@ -26,11 +26,12 @@ scoreboard players set @s playerKills 0
 execute as @s[scores={deaths=1}] run function regenerations:giant_set
 execute as @s[scores={deaths=2}] run function regenerations:goblin_set
 execute as @s[scores={deaths=3}] run function regenerations:avian_set
-execute as @s[scores={deaths=4}] run function regenerations:dryad_set
-execute as @s[scores={deaths=5}] run function regenerations:mermaid_set
+execute as @s[scored={deaths=4}] run fuction regenerations:iceologer_set
+execute as @s[scores={deaths=5}] run function regenerations:dryad_set
 execute as @s[scores={deaths=6}] run function regenerations:slime_set
-execute as @s[scores={deaths=7}] run function regenerations:ghost_set
-execute as @s[scores={deaths=8}] run function regenerations:zombie_set
+execute as @s[scores={deaths=7}] run function regenerations:mermaid_set
+execute as @s[scores={deaths=8}] run function regenerations:ghost_set
+#execute as @s[scores={deaths=8}] run function regenerations:zombie_set
 execute as @s[scores={deaths=9}] run function regenerations:skulker_set
 execute as @s[scores={deaths=10}] run function regenerations:blazer_set
 execute as @s[scores={deaths=11}] run function regenerations:ender_set
