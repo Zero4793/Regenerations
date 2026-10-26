@@ -21,3 +21,4 @@ scoreboard objectives add Imunity dummy
 scoreboard objectives add stage dummy
 
 team add undead
+team add illager
